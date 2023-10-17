@@ -1,0 +1,81 @@
+/* dark-mode.css */
+
+/* Fond global bleu ciel */
+body {
+    background-color: #87CEEB; /* Bleu ciel */
+    color: #000000; /* Texte en blanc */
+  }
+  
+  /* Barre de navigation sombre */
+  .navbar {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  /* Liens de navigation */
+  .navbar a {
+    color: #fff;
+  }
+  
+  /* Liens de navigation au survol */
+  .navbar a:hover {
+    color: #ffffff; /* Orange (ou une autre couleur de votre choix) au survol */
+  }
+  
+  /* Carte de produit sombre */
+  .product-card {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+  }
+  
+  /* Titre de produit */
+  .product-title {
+    color: #070707;
+  }
+  
+  /* Bouton "Ajouter au panier" */
+  .product-card .btn-success {
+    background-color: #49c467;
+    color: #000000;
+  }
+  
+  /* Bouton "Voir" */
+  .product-card .btn-warning {
+    background-color: #4bad95;
+    color: #000000;
+  }
+  
+  /* Pied de page sombre */
+  .footer {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  /* Styles supplémentaires pour les différents éléments de votre site */
+  
+  /* Ajoutez des styles pour les boutons, les formulaires, les icônes, etc. */
+  
+  /* Exemple de style pour un bouton */
+  .btn {
+    background-color: #0d011b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Exemple de style pour un formulaire */
+  .form-control {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+  }
+  
+  /* Icônes */
+  .icon {
+    color: #ff6600;
+  }
+  
+  /* Personnalisez davantage selon vos besoins */
+  

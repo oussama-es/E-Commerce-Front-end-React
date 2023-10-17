@@ -1,0 +1,92 @@
+.product-card {
+    display: flex;
+    border: 1px solid #ddd;
+    padding-left: 5px;
+    margin: 30px;
+    height: 400px; /* Définissez la hauteur fixe ici */
+    flex-direction: column;
+  }
+  
+  .product-image {
+    max-height: 200px; /* Réglez la hauteur maximale de l'image */
+  }
+  
+  .product-details {
+    flex-grow: 1;
+  }
+  
+  /* Ajoutez d'autres styles CSS selon vos besoins */
+  .product-card button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .product-card button:hover {
+    background-color: #ff4500; /* Changement de couleur au survol */
+  }
+  /* Styles pour la carte */
+.card {
+  position: relative;
+  /* Autres styles de la carte */
+}
+
+/* Styles pour le bouton */
+.card button {
+  position: absolute;
+  bottom: 20px; /* Ajustez la valeur selon votre préférence */
+  right: 20px; /* Ajustez la valeur selon votre préférence */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Styles pour le bouton lorsqu'il est survolé */
+.card button:hover {
+  transform: scale(1.1); /* Ajustez la valeur pour le zoom au survol */
+}
+/* Card.css */
+
+.product-card {
+  background-color: #66ccff; /* Fond bleu ciel */
+  color: #fff; /* Texte blanc */
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  min-height: 300px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Autres styles restent inchangés */
+/* Card.css */
+
+.product-card {
+  background-color: #66ccff; /* Fond bleu ciel */
+  color: #fff; /* Texte blanc */
+  border: 1px solid transparent; /* Bordure transparente par défaut */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  transition: transform 0.2s ease-in-out;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  min-height: 300px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  border-color: #ff6600; /* Couleur de la bordure au survol */
+}
