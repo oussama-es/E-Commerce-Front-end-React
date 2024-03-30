@@ -2,7 +2,7 @@ import React from 'react';
 
 const App = () => (
 <div>  
-  <h1>Node React ecommerce on Bright Coding with Mohamed IDBRAHIM</h1> 
+  <h1>hii</h1> 
   <button class="btn btn-outline-primary">Salam</button>
 </div>
 )
